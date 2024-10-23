@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<title>map</title>
+
+</head>
+<body>
+
+    <style>
+        table, th, td{
+            border:1px solid black;
+            text-align:center;
+            width:50%;
+        }
+        #title, #illustration{
+            text-align: justify;
+            font: bold 2.5rem/1.2 arial, verdana, "Helvetica Meue",  monospace;
+        }
+        #title{
+            background-color: powderblue;
+            color: white;
+        }
+        #supplement{
+            font-size: 2rem
+        }
+        a:hover{
+            color:tomato;
+        }
+        a:active{
+            color:powderblue;
+        }
+        tr{
+            font-size:2rem
+        }
+        .container{
+            display:flex;
+            height: 1500px;
+            flex-direction:;
+        }
+        .container2{
+            display:flex;
+            flex-direction:column;
+        }
+        .it{
+            background-color: white;
+            flex-grow:1;
+        }
+        #a{
+            flex-basis:100px;
+        }
+        #b{
+            flex-basis:5px;
+            border: 1px solid;
+            background-color: black;
+        }
+        #c{
+            flex-basis:20px;
+        }
+
+    </style>
+    <div class="container">
+        <div class="it" id="a"></div>
+        <div class="it" id="b">
+            <!-- <div class="it" id="a">COSA</div> -->
+        </div>
+        <div class="it" id="c"></div>
+        <div class="container2">
+            <div class="it" id="title">
+                <h1>[고요 속의 채팅]</h1>
+            </div>
+            <div class="it" id="illustration">
+                <p>:몇개의 글자를 금지하고 제시된 글자 맞추기를 목적으로 하는 게임</p>
+                <p id="supplement">(참여만 해도 상품을 드리며 가장 많은 글자를 맞춰 1등을 할 경우 키보드를 상품으로 드립니다)</p>
+            </div>
+            <div class="it" id="table">
+                <table>
+                    <tr>
+                        <th>게임 이름</th>
+                        <td>고요 속의 채팅</td>
+                    </tr>
+                    <tr>
+                        <th>보상</th>
+                        <td>키보드</td>
+                    </tr>
+                    <tr>
+                        <th>운영 시간</th>
+                        <td>a~b<br>c~d</td>
+                    </tr>
+                    <tr>
+                        <th>장소</th>
+                        <td>?층<br>?실</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
